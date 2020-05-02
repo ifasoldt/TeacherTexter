@@ -1,0 +1,20 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'bootstrap-datetimepicker';
+@import "bootstrap";
+@import "vars";
+@import 'sessions';
+@import 'text-templates';
+@import 'header';
+
+
+
+
+.page-container {
+  height: 100%;
+  background: $col-green;
+}
+
+body {
+  background: $col-green;
+}

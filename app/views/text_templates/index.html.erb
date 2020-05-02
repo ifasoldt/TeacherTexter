@@ -1,0 +1,7 @@
+<div class="page-container">
+  <div class="text-templates">
+    <% @text_templates.each do |template| %>
+      <%= render text_template, template: template %>
+    <% end%>
+  </div>
+</div>

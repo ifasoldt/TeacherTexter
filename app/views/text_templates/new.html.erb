@@ -1,0 +1,23 @@
+<div class="new-template">
+  <form class="form-horizontal" action="<%= preview_text_templates_path %>" method="GET" >
+    <div class="form-group">
+        <label for="text_template_body" class="control-label">Text Body</label>
+        <textarea class="body form-control" rows="8" type="text" name="text_template[body]" id="text_template_body" style="margin: 0px; width: 528px; height: 286px;"></textarea>
+    </div>
+    <div class='form-group date'>
+      <label for="text_template_send_at" class="control-label">Send At</label>
+      <div class="input-group" id='datetimepicker1'>
+        <input type='text' id="text_template_send_at" name="text_template[send_at]" class="form-control" />
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-default">Preview</button>
+    </div>
+
+  </form>
+</div>
+ 

@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="user-info">
+    <div class="user-circle">
+      <%= @current_user.username.first.upcase %>
+    </div>
+    <div class="username">
+      <%= @current_user.username %>
+    </div>
+    <a class="logout btn" href="<%= logout_sessions_path %>">Log Out</a>
+  </div>
+  <div class="app-name">
+    <i class="fas fa-chalkboard-teacher"></i>
+    <div class="text">TeacherTexter</div>
+    <i class="fas fa-sms"></i></div>
+  <div class="links">
+    <a href="<%= new_text_template_path %>" class="header-btn btn">New Text</a>
+    <a href="<%= text_templates_path %>" class="header-btn btn">Saved Texts</a>
+    <a href="<%= %>%" class="header-btn btn">Recipients</a>
+  </div>
+</div>

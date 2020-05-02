@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  font-size: 14px;
+  height: 60px;
+  background: $col-white;
+  font-weight: bold;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    .header-btn {
+      color: $col-white;
+      background: $col-red;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+  }
+
+  .app-name {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    .text {
+      margin: 0 8px;
+    }
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .username {
+      font-weight: bold;
+      color: $col-orange;
+      margin-left: 4px;
+    }
+
+    .logout {
+      margin-left: 4px;
+      font-weight: bold;
+      background: $col-orange;
+      color: $col-white;
+    }
+
+    .user-circle {
+      height: 40px;
+      width: 40px;
+      font-size: 20px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: $col-orange;
+    }
+  }
+}
